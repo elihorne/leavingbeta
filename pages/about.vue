@@ -2,21 +2,20 @@
   <div class="">
     <Header />
     <div class="container mx-auto">
-      <h3 class="text-xl font-bold uppercase mb-4">Products</h3>
-      <ol>
-        <li>
-          <a class="font-bold" href="https://feedmirror.com">Feedmirror</a>
-          <p class="my-3 max-w-2xl">
-            Feedmirror fetches remote feeds on a regular, scheduled basis. The
-            feeds are mirrored on fast, geographically distributed servers with
-            permissions that allow the data to be requested and used on any
-            website.
-          </p>
-          <span class="status"
-            ><span class="font-bold">Status:</span> In contract</span
-          >
-        </li>
-      </ol>
+      <h3 class="text-xl font-bold uppercase mb-4">About</h3>
+      <p class="mb-4">
+        Leaving Beta, LLC was formed in 2021 to serve as a holding company for
+        the various ideas and explorations of its founder, Eli Horne.
+      </p>
+      <h3 class="text-xl font-bold uppercase mb-4">Contact</h3>
+      <p class="mb-4">
+        If you'd like to get in touch, you send email to info@leavingbeta.com or
+        send physical correspondence to:
+      </p>
+      <p>
+        9450 SW Gemini Dr <br />PMB 41471 <br />Beaverton, Oregon 97008-7105 US
+      </p>
+
       <div
         class="bio my-10 rounded-xl overflow-hidden bg-gray-900 text-white flex"
       >
@@ -26,11 +25,10 @@
             Eli Horne is a designer, developer and entrepreneur who enjoys
             learning new technologies through exploration.
           </p>
-          <nuxt-link
-            to="/about"
+          <a
             class="inline-block mt-4 bg-white rounded-xl text-black p-3"
             href="/about"
-            >Learn more</nuxt-link
+            >Learn more</a
           >
         </div>
         <div class="img">

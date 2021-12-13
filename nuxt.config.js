@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "leavingbeta",
+    title: "Leaving Beta - Ideas for everyday problems. ",
     htmlAttrs: {
       lang: "en",
     },
